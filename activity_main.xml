@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/contentHeader"
+            android:layout_width="295dp"
+            android:layout_height="67dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp"
+            android:background="#00000000"
+            android:text="CALCULATION"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#E94057"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="295dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="-25dp"
+            android:background="#00000000"
+            android:text="ax2+bx+c=0"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="295dp"
+            android:layout_height="102dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:background="#00000000"
+            android:text="Result:"
+            android:textSize="15dp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/inputNumberA"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Enter Number A"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/inputNumberB"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Enter Number B"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/inputNumberC"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Enter Number C"
+            android:inputType="numberSigned" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:text="Calculated"
+            android:textSize="15dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:text="Exit"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Clear Data"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnRead"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="55dp"
+                android:layout_weight="1"
+                android:text="Read Now"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Quach Cong Tuan Dep Trai Da Lam Ung Dung Nay"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
